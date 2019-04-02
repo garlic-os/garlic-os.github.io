@@ -1,0 +1,287 @@
+
+@import url("/common/css/vars.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+@font-face {
+
+	font-family: "determination";
+	src: url("/common/font/DeterminationMonoWeb.woff");
+
+}
+
+
+
+
+
+
+
+html, body {
+
+	height: 100%;
+
+}
+
+body {
+
+	padding: 0;
+	margin:  0;
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-size: 28pt;
+    background-color: var(--white);
+	color: var(--black);
+	text-rendering: optimizeLegibility;
+	text-align: center;
+	
+}
+
+
+a {
+
+	display: block;
+	color: inherit;
+	text-decoration: inherit;
+
+}
+
+
+
+
+
+
+
+.title {
+
+	width: 100%;
+	text-align: center;
+	font-size: 48pt;
+	margin: 0;
+
+}
+
+.box {
+
+	display: inline;
+	background: var(--black);
+	color: var(--white);
+	padding: 0.125em 0.25em;
+	border-radius: 10px;
+	mix-blend-mode: multiply;
+	box-shadow: 2px 2px 2px rgba(34,34,34,0.6);
+
+}
+
+.white {
+
+	/* A modifier for .box to make the box white instead of black */
+	background: var(--white) !important;
+	color: var(--black) !important;
+	mix-blend-mode: screen !important;
+
+}
+
+
+
+
+
+.main {
+
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+
+}
+
+.main-title {
+
+	flex-grow: 2;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	font-size: 128pt;
+	margin: 0;
+
+}
+
+.quote-container {
+
+	background: var(--black);
+	color:      var(--white);
+
+	text-align: right;
+	padding: 2em;
+
+} 
+
+.quote {
+
+	font-style: italic;
+	margin-bottom: 0.5em;
+
+} .quote::before {
+
+	content: "“";
+
+} .quote::after {
+
+	content: "”";
+
+}
+
+.quote-sayer::before {
+
+	content: "—";
+
+}
+
+
+
+
+
+
+#bad-time {
+
+	background-color: var(--black);
+
+}
+
+.bt-slide1 {
+
+	/* lol this sucks */
+	background-image:    url("img/soul.png");
+	background-color:    var(--black);
+	background-repeat:   no-repeat;
+	background-position: center; 
+	background-size:     2.5%;
+	image-rendering:     pixelated;
+
+} .bt-slide2 {
+
+	/* why won't the shorthand property work */
+	background-image:    url("img/soul-broken.png");
+	background-color:    var(--black);
+	background-repeat:   no-repeat;
+	background-position: center;
+	background-size:     3.125%;
+	image-rendering:     pixelated;
+	
+}
+
+
+#bad-time .title {
+	
+	transform: translateY(250%);
+	color: var(--white);
+	font-family: "determination", sans-serif;
+	text-shadow: none;
+
+}
+
+#bad-time a {
+
+	margin: 0 auto;
+	width:  80%;
+	height: 100%;
+
+}
+
+
+
+
+
+@keyframes hueshift {
+    from { filter: hue-rotate(0deg);   }
+    to   { filter: hue-rotate(359deg); }
+}
+
+#contact {
+
+	background-image: linear-gradient(45deg, #8DC23D, #04AE9A);
+	background-image: url("/landing/img/contact.png");
+	background-position: center;
+	background-size: 100%;
+	animation-name: hueshift;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+
+
+
+
+
+
+
+@keyframes scroll {
+
+	0% {
+		background-position: top;
+	}
+	100% {
+		background-position: bottom;
+	}
+  
+}
+
+#flash {
+
+	background: url("/landing/img/flash.jpg");
+	background-repeat: repeat-y;
+	background-size: 100% auto;
+	animation: scroll 60s linear infinite;
+
+}
+
+
+
+
+
+
+#harold {
+
+	background: url("/harold/harold1.png");
+
+}
+
+
+
+
+/*
+
+#link > div {
+
+	transform: scale(3);
+
+}
+
+*/
+
+
+#trading-cards {
+
+    background: #E7D6C5 url("/trading-cards/bouchardon-self-portrait.jpg") repeat center 25%;
+
+}
+
+
+
+#github {
+
+	position: relative;
+	z-index: 1;
+
+} #github::before {
+	
+	content: "";
+	position: absolute;
+	left:0; top:0;
+	width:  100%; 
+	height: 100%;  
+	opacity: .75; 
+	z-index: -1;
+	background: url("https://avatars2.githubusercontent.com/u/14845347?s=460&v=4") no-repeat center;
+	background-size: 100% auto;
+	
+}
