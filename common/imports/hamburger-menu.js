@@ -144,14 +144,13 @@ document.addEventListener("DOMContentLoaded", function () {
 	<!-- The actual menu -->
 	<dl id="hm-menu">
 		<a href="/"><dt>Home</dt></a>
-		<a href="/bad-time-simulator"><dt>Bad Time Simulator</dt></a>
-		<a href="/really-bad-time-simulator" class="hm-red"><dd>Hard Mode</dd></a>
 		<a href="/contact"><dt>Contact</dt></a>
+		<a href="/endless-he"><dt>Endless he</dt></a>
+		<a href="/endless-song"><dt>Endless song</dt></a>
 		<a href="/f"><dt>f</dt></a>
 		<a href="/flash"><dt>Flash</dt></a>
 		<a href="/harold"><dt>Harold</dt></a>
-		<a href="/link"><dt>Link</dt></a>
-		<a href="/trading-cards"><dt>Trading Cards</dt></a>
+		<a href="/trading-cards"><dt>Trading cards</dt></a>
 	</dl>
 </nav>
 		`);
