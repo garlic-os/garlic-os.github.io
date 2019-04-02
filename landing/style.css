@@ -143,55 +143,6 @@ a {
 
 
 
-#bad-time .title {
-	
-	transform: translateY(250%);
-	color: var(--white);
-	font-family: "determination", sans-serif;
-	text-shadow: none;
-
-}
-
-#bad-time a {
-
-	margin: 0 auto;
-	width:  80%;
-	height: 100%;
-
-}
-#bad-time {
-
-	background-color: var(--black);
-
-}
-
-.bt-slide1 {
-
-	/* lol this sucks */
-	background-image:    url("img/soul.png");
-	background-color:    var(--black);
-	background-repeat:   no-repeat;
-	background-position: center; 
-	background-size:     2.5%;
-	image-rendering:     pixelated;
-
-} .bt-slide2 {
-
-	/* why won't the shorthand property work */
-	background-image:    url("img/soul-broken.png");
-	background-color:    var(--black);
-	background-repeat:   no-repeat;
-	background-position: center;
-	background-size:     3.125%;
-	image-rendering:     pixelated;
-	
-}
-
-
-
-
-
-
 @keyframes hueshift {
     from { filter: hue-rotate(0deg);   }
     to   { filter: hue-rotate(359deg); }
