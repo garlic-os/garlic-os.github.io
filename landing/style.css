@@ -140,6 +140,23 @@ a {
 
 
 
+
+#bad-time .title {
+	
+	transform: translateY(250%);
+	color: var(--white);
+	font-family: "determination", sans-serif;
+	text-shadow: none;
+
+}
+
+#bad-time a {
+
+	margin: 0 auto;
+	width:  80%;
+	height: 100%;
+
+}
 #bad-time {
 
 	background-color: var(--black);
@@ -168,23 +185,6 @@ a {
 	
 }
 
-
-#bad-time .title {
-	
-	transform: translateY(250%);
-	color: var(--white);
-	font-family: "determination", sans-serif;
-	text-shadow: none;
-
-}
-
-#bad-time a {
-
-	margin: 0 auto;
-	width:  80%;
-	height: 100%;
-
-}
 
 
 
@@ -248,7 +248,7 @@ a {
 
 
 
-/*
+
 
 #link > div {
 
@@ -256,7 +256,9 @@ a {
 
 }
 
-*/
+
+
+
 
 
 #trading-cards {
