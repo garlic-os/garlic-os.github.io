@@ -1,4 +1,6 @@
 
+/* This CSS sucks */
+
 @import url("/common/css/vars.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 
@@ -211,17 +213,33 @@ a {
 
 
 
+#endless-he {
+
+	position: relative;
+	z-index: 1;
+
+} #endless-he::before {
+	
+	content: "";
+	position: absolute;
+	left:0; top:0;
+	width:  100%; 
+	height: 100%;  
+	opacity: .75; 
+	z-index: -1;
+	background: url("/endless-he/arms.jpg") no-repeat center;
+	background-size: 100%;
+	
+}
+
+
 
 
 
 @keyframes scroll {
 
-	0% {
-		background-position: top;
-	}
-	100% {
-		background-position: bottom;
-	}
+	0%   { background-position: top;    }
+	100% { background-position: bottom; }
   
 }
 
