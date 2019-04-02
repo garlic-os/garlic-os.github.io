@@ -212,7 +212,13 @@ a {
 
 	background: url("/harold/harold1.png");
 
+} #harold:hover {
+	
+	background: url("/harold/harold2.png");
+	background-size: 300px 375px;
+	
 }
+
 
 
 
