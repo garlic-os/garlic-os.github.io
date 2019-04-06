@@ -5,6 +5,7 @@
 
 document.addEventListener("DOMContentLoaded", function () {
 	document.body.insertAdjacentHTML("afterbegin", `
+<!--  CSS-ONLY HAMBURGER MENU  -->
 <!--    Made by Erik Terwan    -->
 <!--   24th of November 2015   -->
 <!--        MIT License        -->
@@ -153,6 +154,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		<a href="/trading-cards"><dt>Trading cards</dt></a>
 	</dl>
 </nav>
+<!-- END OF HAMBURGER MENU -->
 		`);
 	}
 );
