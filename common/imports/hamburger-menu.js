@@ -1,6 +1,5 @@
 
 // /common/imports/hamburger-menu.js
-// A hamburger-menu-style directory for The House of 6446
 // <script type="text/javascript" src="/common/imports/hamburger-menu.js"></script>
 
 document.addEventListener("DOMContentLoaded", function () {
