@@ -150,7 +150,8 @@ document.addEventListener("DOMContentLoaded", function () {
 		<a href="/f"><dt>f</dt></a>
 		<a href="/flash"><dt>Flash</dt></a>
 		<a href="/harold"><dt>Harold</dt></a>
-		<a href="/trading-cards"><dt>Trading cards</dt></a>
+		<a href="/trading-cards"><dt>Philosophers</dt></a>
+		<a href="/sociology-trading-cards"><dt>Sociologists</dt></a>
 	</dl>
 </nav>
 <!-- END OF HAMBURGER MENU -->
