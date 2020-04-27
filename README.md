@@ -1,1 +1,1 @@
-# grosserly.github.io
+# the-garlic-os.github.io
