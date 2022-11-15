@@ -1,1 +1,1 @@
-# the-garlic-os.github.io
+# garlic-os.github.io
