@@ -97,10 +97,11 @@ document.addEventListener("DOMContentLoaded", function () {
 		/* The menu card */
 		#hm-menu {
 			position: fixed; /* Stay onscreen regardless of the page's position */
+			left: 0; top: 0;
 			width: 300px;
-			margin: -5% 0 0 -2%; /* I don't know why this needs to be here but it does */
+			margin-top: 0;
 			padding: 75px 25px;
-			height: 87%;
+			height: 100vh;
 			box-shadow: 0 0 10px 0 rgba(0,0,0,.3); /* Nice little shadow on the edge */
 			background: #EDEDED;
 			list-style-type: none; /* No bullets on list */
